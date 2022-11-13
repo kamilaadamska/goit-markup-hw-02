@@ -1,3 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+:root {
+  --brand-color: #2196f3;
+  --descriptions-color: #757575;
+  --background-color: #e5e5e5;
+  --sections-color: #2f303a;
+}
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+.headline {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
 }

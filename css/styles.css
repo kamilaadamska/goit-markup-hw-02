@@ -1,12 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--header-color);
 }
 :root {
-  --brand-color: #2196f3;
-  --descriptions-color: #757575;
+  --header-color: #212121;
+  --description-color: #757575;
+  --selection-color: #2196f3;
   --background-color: #e5e5e5;
-  --sections-color: #2f303a;
+  --section-color: #2f303a;
 }
 .link {
   text-decoration: none;
@@ -14,8 +15,10 @@ body {
 }
 .headline {
   position: absolute;
-  width: 1600px;
   height: 80px;
+  width: 1600px;
   left: 0px;
   top: 0px;
+  border-radius: 0px;
+  border: 1px solid #ececec;
 }

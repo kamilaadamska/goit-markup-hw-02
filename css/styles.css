@@ -11,7 +11,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: #212121;
+  color: var(--header-color);
 }
 .logo {
   font-family: 'Raleway';
@@ -23,7 +23,7 @@ body {
 .logo-color {
   color: var(--selection-color);
 }
-.navigation {
+.header-menu {
   list-style-type: none;
   font-weight: 500;
   font-size: 14px;
@@ -34,15 +34,6 @@ body {
   color: var(--selection-color);
 }
 .contact-details {
-  list-style-type: none;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-}
-.send-email {
-  color: var(--description-color);
-}
-.call-us {
   color: var(--description-color);
 }
 .hero {
@@ -56,4 +47,76 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.ordering-button {
+  background: var(--selection-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.what-we-do-list {
+  column-count: 4;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+.what-we-do-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.header-secondary {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.gallery {
+  list-style-type: none;
+  column-count: 3;
+}
+.our-team-photos {
+  list-style-type: none;
+  column-count: 4;
+}
+.jobs {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+.address-list {
+  list-style-type: none;
+}
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-color {
+  background: var(--section-color);
+}
+.direct-message {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #fff;
 }

@@ -17,61 +17,63 @@
     <header>
       <a class="link logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
       <nav>
-        <ul class="navigation">
+        <ul class="header-menu">
           <li><a class="link link-selected" href="#">Agencja</a></li>
           <li><a class="link link-selected" href="portfolio.html">Portfolio</a></li>
           <li><a class="link link-selected" href="#contact">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="contact-details">
+      <ul class="header-menu">
         <li>
-          <a class="link link-selected send-email" href="mailto:info@devstudio.com"
+          <a class="link link-selected contact-details" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li><a class="link link-selected call-us" href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="link link-selected contact-details" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
       <!-- HERO -->
       <section class="hero">
         <h1 class="hero-headline">Efektywne rozwiązania dla waszego biznesu</h1>
-        <button class="hero-button" type="button">Zamów usługę</button>
+        <button class="ordering-button" type="button">Zamów usługę</button>
       </section>
       <!-- What we do -->
       <section>
-        <ul>
+        <ul class="what-we-do-list">
           <li>
-            <span>Lorem ipsum</span>
+            <span class="what-we-do-title">Lorem ipsum</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <span>Lorem ipsum</span>
+            <span class="what-we-do-title">Lorem ipsum</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <span>Lorem ipsum</span>
+            <span class="what-we-do-title">Lorem ipsum</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <span>Lorem ipsum</span>
+            <span class="what-we-do-title">Lorem ipsum</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="header-secondary">Czym się zajmujemy</h2>
+        <ul class="gallery">
           <li>
             <img
               src="images/what_we_do/coding.jpg"
@@ -100,8 +102,8 @@
       </section>
       <!-- Our team -->
       <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+        <h2 class="header-secondary">Nasz zespół</h2>
+        <ul class="our-team-photos">
           <li>
             <figure>
               <img
@@ -111,8 +113,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <span>Product Designer</span>
+                <h3 class="names">John Doe</h3>
+                <span class="jobs">Product Designer</span>
               </figcaption>
             </figure>
           </li>
@@ -125,8 +127,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <span>Frontend Developer</span>
+                <h3 class="names">Jane Doe</h3>
+                <span class="jobs">Frontend Developer</span>
               </figcaption>
             </figure>
           </li>
@@ -139,8 +141,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>Jane Doe</h3>
-                <span>Marketing</span>
+                <h3 class="names">John Doe</h3>
+                <span class="jobs">Marketing</span>
               </figcaption>
             </figure>
           </li>
@@ -153,25 +155,36 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <span>UI Designer</span>
+                <h3 class="names">John Doe</h3>
+                <span class="jobs">UI Designer</span>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="link logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
+    <footer class="footer-color">
+      <a class="link footer-logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
       <address id="contact">
-        <ul>
+        <ul class="address-list">
           <li>
-            <a class="link" href="https://goo.gl/maps/5vognSmDPYiszCNh9" target="_blank"
+            <a
+              class="link footer-address"
+              href="https://goo.gl/maps/5vognSmDPYiszCNh9"
+              target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="link footer-address direct-message" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="link footer-address direct-message" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </address>
     </footer>

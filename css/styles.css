@@ -13,21 +13,7 @@ body {
   text-decoration: none;
   color: #212121;
 }
-.headline {
-  position: absolute;
-  height: 80px;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  border: 1px solid #ececec;
-}
-.header-logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+.logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -38,93 +24,31 @@ body {
   color: var(--selection-color);
 }
 .navigation {
-  column-count: 3;
-  column-gap: 46px;
   list-style-type: none;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
-.agency-nav {
-  position: absolute;
-  width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
-.portfolio-nav {
-  position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-}
-.contact-nav {
-  position: absolute;
-  width: 51px;
-  height: 16px;
-  left: 656px;
-  top: 32px;
-}
-.agency-nav:hover,
-.agency-nav:focus {
-  color: var(--selection-color);
-}
-.portfolio-nav:hover,
-.portfolio-nav:focus {
-  color: var(--selection-color);
-}
-.contact-nav:hover,
-.contact-nav:focus {
+.link-selected:hover,
+.link-selected:focus {
   color: var(--selection-color);
 }
 .contact-details {
-  column-count: 2;
-  column-gap: 50px;
   list-style-type: none;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
 .send-email {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
   color: var(--description-color);
 }
 .call-us {
-  position: absolute;
-  width: 110px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   color: var(--description-color);
 }
-.send-email:hover,
-.send-email:focus {
-  color: var(--selection-color);
-}
-.call-us:hover,
-.call-us:focus {
-  color: var(--selection-color);
-}
 .hero {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background: var(--section-color);
 }
 .hero-headline {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 200px;
-  bottom: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

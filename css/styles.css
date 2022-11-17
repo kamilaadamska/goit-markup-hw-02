@@ -7,7 +7,9 @@ body {
   --description-color: #757575;
   --selection-color: #2196f3;
   --background-color: #e5e5e5;
-  --section-color: #2f303a;
+  --section-dark-color: #2f303a;
+  --brand-color-white: #fff;
+  --brand-color-black: #000;
 }
 .link {
   text-decoration: none;
@@ -18,12 +20,16 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--brand-color-black);
+}
+.footer-logo {
+  color: var(--brand-color-white);
 }
 .logo-color {
   color: var(--selection-color);
 }
-.header-menu {
+.header-menu,
+.header-contact-menu {
   list-style-type: none;
   font-weight: 500;
   font-size: 14px;
@@ -37,18 +43,20 @@ body {
   color: var(--description-color);
 }
 .hero {
-  background: var(--section-color);
+  background: var(--section-dark-color);
+  width: 1600px;
+  height: 80px;
 }
-.hero-headline {
+.header-primary {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--brand-color-white);
 }
-.ordering-button {
+.main-button {
   background: var(--selection-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -57,7 +65,7 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #fff;
+  color: var(--brand-color-white);
 }
 .what-we-do-list {
   column-count: 4;
@@ -112,11 +120,4 @@ body {
 }
 .direct-message {
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  color: #fff;
 }

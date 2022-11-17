@@ -66,6 +66,10 @@ body {
   color: var(--brand-color-white);
   padding: 10px 41px 10px 41px;
 }
+/* Wiem, że pozycjonowanie elementów będzie 
+w następnym zadaniu, ale dopóki go nie zgłebiłam, 
+to ustawiłam kolumny w taki sposób, żeby przyjemniej 
+się patrzyło :) */
 .what-we-do-list {
   column-count: 4;
   list-style-type: none;
@@ -74,10 +78,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
-.what-we-do-title {
+.what-we-do-list span {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
@@ -85,7 +88,6 @@ body {
 .header-secondary {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }

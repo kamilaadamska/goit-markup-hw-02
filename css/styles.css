@@ -130,10 +130,10 @@ się patrzyło :) */
 .footer-address {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--brand-color-white);
 }
-.direct-message {
+.footer-contact-details {
   color: rgba(255, 255, 255, 0.6);
 }

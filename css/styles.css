@@ -30,6 +30,9 @@ body {
 .logo-color {
   color: var(--selection-color);
 }
+.header-background {
+  border: 1px solid #ececec;
+}
 .header-menu,
 .header-contact-menu {
   list-style-type: none;

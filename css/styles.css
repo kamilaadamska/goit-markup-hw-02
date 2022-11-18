@@ -8,6 +8,7 @@ body {
   --selection-color: #2196f3;
   --background-color: #e5e5e5;
   --section-dark-color: #2f303a;
+  --section-light-color: #f5f4fa;
   --brand-color-white: #fff;
   --brand-color-black: #000;
 }
@@ -91,7 +92,7 @@ się patrzyło :) */
   text-align: center;
   letter-spacing: 0.03em;
 }
-.gallery {
+.what-we-do-gallery {
   list-style-type: none;
   column-count: 3;
 }
@@ -99,12 +100,29 @@ się patrzyło :) */
   list-style-type: none;
   column-count: 4;
 }
-.jobs {
+.our-team-photos h3 {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-photos span {
+  display: block;
+  font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--description-color);
+}
+.our-team-photos figure {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team {
+  background-color: var(--section-light-color);
+}
+.footer-color {
+  background: var(--section-dark-color);
 }
 .address-list {
   list-style-type: none;
@@ -115,9 +133,6 @@ się patrzyło :) */
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-.footer-color {
-  background: var(--section-color);
 }
 .direct-message {
   color: rgba(255, 255, 255, 0.6);

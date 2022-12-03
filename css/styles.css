@@ -93,12 +93,7 @@ ul {
   padding: 10px 41px 10px 41px;
   cursor: pointer;
 }
-/* Wiem, że pozycjonowanie elementów będzie 
-w następnym zadaniu, ale dopóki go nie zgłebiłam, 
-to ustawiłam kolumny w taki sposób, żeby przyjemniej 
-się patrzyło :) */
 .what-we-do-list {
-  column-count: 4;
   list-style-type: none;
   font-size: 14px;
   line-height: 1.71;
@@ -119,11 +114,9 @@ się patrzyło :) */
 }
 .what-we-do-gallery {
   list-style-type: none;
-  column-count: 3;
 }
 .our-team-photos {
   list-style-type: none;
-  column-count: 4;
 }
 .our-team-photos h3 {
   font-weight: 500;
@@ -165,7 +158,6 @@ się patrzyło :) */
 /* PORTFOLIO main */
 .buttons-list {
   list-style-type: none;
-  column-count: 5;
 }
 .buttons-list button {
   background: var(--section-light-color);
@@ -189,7 +181,6 @@ się patrzyło :) */
 }
 .projects-gallery {
   list-style-type: none;
-  column-count: 3;
 }
 .projects-gallery figure {
   border: 1px solid var(--projects-gallery-color);

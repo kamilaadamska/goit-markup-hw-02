@@ -172,6 +172,10 @@ ul {
 /* PORTFOLIO main */
 .buttons-list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .buttons-list button {
   background: var(--section-light-color);
